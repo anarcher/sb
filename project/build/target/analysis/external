@@ -1,0 +1,4 @@
+#External Dependencies
+#Mon Mar 30 02:18:06 KST 2009
+/Users/anarcher/Sources/trashcans/sb/project/boot/scala-2.7.3/sbt-0.3.8/sbt_2.7.3-0.3.8.jar=src/sbProject.scala
+/Users/anarcher/Sources/trashcans/sb/project/boot/scala-2.7.3/lib/scala-library.jar=src/sbProject.scala

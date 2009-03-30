@@ -70,7 +70,7 @@ object sb {
             Time.elapsed(HTTP.get(url))
         }
         for(i <- 1 to 3) {
-            val (latencies, ms) = Time(Repeat.parallel(1)(r))
+            val (latencies, ms) = Time(Repeat.parallel(10)(r))
             println(latencies,ms)
         } 
         println("end")

@@ -72,6 +72,7 @@ object sb {
         for(i <- 1 to 3) {
             val (latencies, ms) = Time(Repeat.parallel(10)(r))
             println(latencies,ms)
+	    Thread.sleep(1000)
         } 
         println("end")
     }
